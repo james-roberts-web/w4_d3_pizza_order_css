@@ -1,0 +1,32 @@
+<div class="pizza_edit">
+
+<h3>Got it wrong? Update your pizza below:</h3>
+
+<form class="" action="/pizza-orders/<%= @pizza_order.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+
+
+  <label for="first-name">First Name:</label>
+    <input id="first-name" type="text" name="first_name" value="<%= @pizza_order.first_name %>" />
+
+
+  <label for="last-name">Last Name:</label>
+    <input id="last-name" type="text" name="last_name" value="<%= @pizza_order.last_name %>" />
+
+
+  <label for="pizza-select">Select a pizza:</label>
+    <select id="pizza-select" name="topping">
+      <option value="Pepperoni" <%= "selected" if @pizza_order.topping == "Pepperoni" %> >Pepperoni</option>
+      <option value="Italian Sausage" <%= "selected" if @pizza_order.topping == "Italian Sausage" %> >Italian Sausage</option>
+      <option value="Calzone" <%= "selected" if @pizza_order.topping == "Calzone" %> >Calzone</option>
+    </select>
+
+
+  <label for="quantity">Quantity:</label>
+    <input id="quantity" type="number" name="quantity" value="<%= @pizza_order.quantity %>" />
+
+
+  <input type='submit' value="Update Pizza"/>
+</form>
+
+</div>

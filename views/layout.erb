@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en-GB" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Land</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Fredoka+One|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css"/>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <div class="container">
+
+
+  <header>
+    <div class="heading">
+      <nav>
+        <ul class="nav_list">
+          <li><a href="/pizza-orders">Pizza Orders</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <div class="welcome">
+      <hr class="hrule">
+      <h1>Welcome to Pizza Land <i class="fas fa-pizza-slice"></i></h1>
+      <hr class="hrule">
+    </div>
+    <div class="main">
+      <%= yield %>
+      </div>
+  </body>
+
+  <footer>
+    <div class="foot">
+      
+      <p>2019 Pizza Land. We are better than Dominos.</p>
+    </div>
+  </footer>
+
+  </div>
+
+</html>

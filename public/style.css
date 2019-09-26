@@ -1,0 +1,161 @@
+/* .container{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+} */
+
+a, a:link, a:visited, a:active {color: inherit;}
+
+header {
+  display: flex;
+  align-content: center;
+}
+
+body {
+  margin-top: 3%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%;
+  background-color: #F4E0C3;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 9  00;
+  /* color: #f9ae00; */
+}
+
+ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.order_list{
+    font-family: 'Roboto', sans-serif;
+}
+
+.order {
+  margin-top: inherit;
+}
+.nav_list {
+  align-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #2E4057;
+}
+
+hr {
+  border-top: 3px dotted #2E4057;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 8rem;
+  margin-top: -0.0em;
+  margin-bottom: 0;
+  color: #D9534F;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -0.01em;
+  font-size: 2em;
+  color: #578e3b;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.25;
+  color: #578e3b;
+}
+
+h4 {
+  font-family: 'Fredoka One', cursive;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-top: -0.0em;
+  margin-bottom: 0;
+  color: #D9534F;
+}
+
+h6 {
+  letter-spacing: -0.01em;
+  color: #578e3b;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  width: 900px;
+  padding-top: -0.1em;
+}
+
+p {
+  font-size: 1.1em;
+  color: #2E4057;
+}
+
+.order {
+  margin-top: -75px;
+  margin-bottom: -75px;
+  padding: -25px;
+}
+
+.order_list{
+    margin-top: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.2em;
+    color: #2E4057;
+    text-transform: uppercase;
+}
+
+input[type=text]  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type=select] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 3fr;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  height: 100px;
+  padding: 50px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  box-shadow: 5px;
+}
+
+footer {
+
+  padding-top: 50px;
+  display: flex;
+  font-size: 0.6em;
+  color: grey;
+  background-color: inherit;
+  bottom:0;
+  padding-bottom: 10px;
+}

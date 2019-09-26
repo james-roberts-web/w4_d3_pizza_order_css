@@ -1,0 +1,17 @@
+
+<div class="order">
+  <h6><a href="/pizza-orders/new"><i class="fas fa-utensils"></i> Order your pizza here <i class="fas fa-utensils"></i></a></h6>
+</div>
+<div class="subhead">
+  <h4>Ordered already? Check your order below:</h4>
+</div>
+<ul class="order_list">
+  <% @pizza_orders.each do |pizza| %>
+    <li>
+      <a href="/pizza-orders/ <%= pizza.id %>">
+        <%= pizza.pretty_name %>
+      </a>
+      <a href="/pizza-orders/<%= pizza.id%>/edit"> ---------- Edit your order</a>
+    </li>
+  <% end %>
+</ul>
